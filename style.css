@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    background-color: rgb(81, 145, 18);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-transform: capitalize;
+    color: gold;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(15, 2, 2);
+}
+p{
+    color: white;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+#message{
+    font-style: italic;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.btn{
+    
+    color: #016f32;
+    background-color: goldenrod;
+    margin: 5px;
+    font-size: 1.5rem;
+    width: 45%;
+    word-wrap: nowrap;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+.start:last-child{
+    margin-bottom: 30px;
+}
+.btn:hover
+{
+    background-color: goldenrod;
+    color: black;
+    letter-spacing: 1.3px;
+    font-size: 1.6rem;
+    
+}
+span{
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+#won{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: red;
+    font-size: 1.5rem;
+}
+#coin{
+    font-size: 1.2rem;
+    color: blue;
+
+}
+.sub{
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
+.container{
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 45%;
+    border-radius: 5%;
+    background-color: rgb(130, 218, 42);;
+}
+@media(max-width: 700px){
+    .container{
+        width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+    .btn{
+        width: 70%;
+    }
+    h1{
+        padding-top: 30px;
+    }
+}
